@@ -53,9 +53,10 @@ npm run start
 ## Ejecución de la API
 si todo sale bien, esta listo para utilizar el proyecto; no olvide configurar de manera adecuada el whitelist si va a autilizar el cliente o no podra conectarse por seguridad
 
+### Pruebas de la Api
+Si desea y por comodidad he dejado unas pruebas listas en el directorio docs, se debe instalar la extension restclient para poder ejecutarlas
+
 ## Contacto
 
 Para cualquier duda o consulta, por favor contacta con el equipo de desarrollo.
 
-
-```
