@@ -1,0 +1,22 @@
+@server=http://localhost:3000/api
+
+### Crear Usuario
+POST {{server}}/usuarios/
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "nombre": "Persona Registrada",
+    "correo": "personaregistrada@gmail.com",
+    "password": "estaesunaclave"
+}
+
+### Login Usuario
+POST {{server}}/usuarios/login
+Content-Type: application/json
+
+{
+    "correo": "personaregistrada@gmail.com",
+    "password": "estaesunaclave"
+}
+

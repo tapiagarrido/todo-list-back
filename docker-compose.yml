@@ -1,0 +1,14 @@
+# Este archivo de docker compose lo genero para no tener conflicto con mis otros servidores
+
+services:
+  pg-database:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER} 
+      POSTGRES_DB: ${POSTGRES_DB_NAME}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    ports:
+      - "5435:5432"

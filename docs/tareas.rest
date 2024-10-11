@@ -1,0 +1,35 @@
+@server=http://localhost:3000/api
+@token=aqui iria un token en caso de activar seguridad
+
+### Crear Tarea
+POST {{server}}/tareas/
+Content-Type: application/json
+
+{
+    "titulo":"prueba de tarea",
+    "descripcion": "estos es una prueba de descripcion",
+    "completada": false
+}
+
+### Obtener Tareas
+GET {{server}}/tareas/
+Content-Type: application/json
+
+### Obtener Tarea
+GET {{server}}/tareas/1
+Content-Type: application/json
+
+### Modificar Tarea
+PUT  {{server}}/tareas/1
+Content-Type: application/json
+
+{
+    "titulo":"prueba de tarea modificada",
+    "descripcion": "esta tarea ha sido establecida y modificada",
+    "usuarioId": "admin",
+    "completada": true
+}
+
+### Eliminar Tarea
+DELETE {{server}}/tareas/1
+Content-Type: application/json

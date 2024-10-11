@@ -1,0 +1,6 @@
+#archivos que vamos a evitar su seguiento por tema de redundancia y seguridad
+
+/node_modules
+.env
+/postgres
+/dist
