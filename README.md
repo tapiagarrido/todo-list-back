@@ -28,7 +28,7 @@ npm install
 ```bash
 cp .env.template .env
 ```
-### 5. cersiorarse de que las variables esten acordes a su base de datos, si no presenta una de manera local, declare las variables db_name, password de ususario, nombre de usuario y el puerto de su db y luego en la raiz del proyecto ejecute (si tiene instalado docker y docker compose)
+#### 5. cersiorarse de que las variables esten acordes a su base de datos, si no presenta una de manera local, declare las variables db_name, password de ususario, nombre de usuario y el puerto de su db y luego en la raiz del proyecto ejecute (si tiene instalado docker y docker compose)
 
 ```bash
 sudo docker compose up
